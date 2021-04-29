@@ -1,0 +1,42 @@
+ls -la
+cd .oh-my-bash/
+cd ..  ///////////// vuelve a la carpeta raiz
+ls -la
+nano .bashrc
+
+source .bashrc
+
+rm -rf/ all delete
+////////////////////////////////////////////////////////////////////////////////////
+
+
+cd ~   //home
+cd Vídeos/
+mkdir taller_clase_3
+mkdir taller_clase_3/fino
+ ls .. /para ver que archivos hay afuera
+ touch archivos/texto.txt 
+ ls archivos/
+rm -rf taller_clase_3/   //para eliminar archivos
+rm -rf/ //todo se termino
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+cd /usr/bin/
+ls -lh
+ ls
+cat man //binario :(
+touch TestVideo4.txt   // Para txt
+cat TestVideo4.txt 
+ nano TestVideo4.txt 
+ cat TestVideo4.txt 
+ 
+ /////////////////////////////////////////////////////////////////////////////////////////////////
+ .bashrc
+ https://www.youtube.com/watch?v=k6j5TMLm_uo&list=PLDbrnXa6SAzU71YLePBL_BDT4Qc5fYtRf&index=5     4:50
+  ls -lha
+nano .bashrc
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+top
+//presionas k y copias el id a matar
