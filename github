@@ -1,0 +1,14 @@
+git log
+git status
+ ls
+  vim Quicksort.cpp
+  git status
+  git diff
+  git add.                      //reafirmas todo
+  
+   git push
+  
+  //////////////////////////////////para volver atraz el comit
+  git log --oneline
+git log --oneline | cat
+git reset 
