@@ -1,0 +1,13 @@
+
+
+bardend@linux ~/BAC/adas master ✗ > mkdir build && cd build
+bardend@linux ~/BAC/adas/build master ✗ > cmake -DCMAKE_BUILD_TYPE=Debug --log-level=debug .. 
+
+
+*************************************Cntrol + S*************************************************
+male bardend@linux ~/BAC/adas/build master ✗ > make bubble
+bardend@linux ~/BAC/adas/build master ✗ > python3 ../dgen/intgen.py 1 10 7 unsorted.txt 
+bardend@linux ~/BAC/adas/build master ✗ > ./test/bubble -i unsorted.txt -v
+
+************************************Como subo a github******************************************
+Create a READMY.md
