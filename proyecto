@@ -11,3 +11,16 @@ bardend@linux ~/BAC/adas/build master ✗ > ./test/bubble -i unsorted.txt -v
 
 ************************************Como subo a github******************************************
 Create a READMY.md
+bardend@linux ~/BAC/adas/build master ✗ > git add   ../test/algorithm/sort/multithread/README.md
+bardend@linux ~/BAC/adas/build master ✗ > git commit -m "Readme for multithread"
+bardend@linux ~/BAC/adas/build master ↑1 ✗ > git push origin master
+
+*************************************Como mezclar las ramas*************************************
+git merge fpolit
+git merge origin/fpolit
+/////
+git checkout fpolite
+git pull origin fpolit  //me trae las actualizaciones
+git checkout  compile
+git merge fpolit
+git push origin compile 
